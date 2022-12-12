@@ -1,0 +1,15 @@
+/**
+Theme Name: Astra Child rillesfirst
+Author: Rille
+Author URI: http://wpastra.com/about/
+Description: Testar att skapa ett child theme och lägga upp det till github med github desktop.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra-child-rillesfirst
+Template: astra
+*/
+
+body {
+  background-color: greenyellow;
+}
