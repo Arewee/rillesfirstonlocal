@@ -64,3 +64,13 @@ add_action(
         unset( $wp_meta_boxes['dashboard']['normal']['core']['dashboard_site_health'] );
     }
  );
+
+ // One column dashboard
+function single_columns( $columns ) {
+    $columns['dashboard'] = 1;
+    return $columns;
+}
+add_filter( 'screen_columns', 'single_columns' );
+ 
+function single_screen_dashboard(){return 1;}
+add_filter( 'get_user_option_screen_layout_dashboard', 'single_screen_dashboard' );
