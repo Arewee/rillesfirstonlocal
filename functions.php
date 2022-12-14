@@ -98,7 +98,7 @@ function custom_dashboard_help() {
 	// ROW WITH HEADING	
 	echo '
 	<div class="default-container">
-	<h2>YOUR MAIN SHORTCUTS</h2>
+	<h2>GENVÄGAR TILL WORDPRESS</h2>
 	<hr>
 	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make </p>
 		</div>';
@@ -118,27 +118,11 @@ function custom_dashboard_help() {
   	<div class="column"><a href="/wp-admin/nav-menus.php" class="edit-menu">Navigation</a></div>
   </div>';
   
-	// ROW WITH HEADING	
-	echo '<div class="default-container"><h2>VIDEO TUTORIALS</h2><hr></div>';
-	// COLUMNS WITH VIDEOS	
-	echo '<div class="video-container">
-  
-  	<div class="video-column">
-	<iframe width="100%" height="315" src="https://www.youtube.com/embed/TruS3HKb6HY?controls=0" title="Woocomemrce pricing rules" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>Woocommerce pricing rules
-	</div>
-  
-	<div class="video-column"><iframe width="100%" height="315" src="https://www.youtube.com/embed/ewbmDafQnIc?controls=0"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>Orders CSV export</div>
-	
-	<div class="video-column"><iframe width="100%" height="315" src="https://www.youtube.com/embed/03dJacd856s?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>Block visibility options</div>
-	  
-	<div class="video-column"><iframe width="100%" height="315" src="https://www.youtube.com/embed/2o60hLc-fVg?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>Reusable blocks management</div>
-
-</div>';
   
 	// COLUMN WITH CONTACT FORM	
 	echo '<div class="default-container">
-	<h2>CONTACT US</h2><hr>
-	<p>Phone: +1 2345 6789 | email@email.com</p>
+	<h2>KONTAKT</h2><hr>
+	<p>Tel: +46 0735739575 | richard@2you.se</p>
 		</div>';
 	echo do_shortcode( '<div class="default-container">
 	[fluentform id="1"] 
